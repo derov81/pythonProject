@@ -39,7 +39,10 @@ def walking_by_dirs(dir, password):
         else:
             walking_by_dirs(path, password)
 
+def main():
     password = input("Введите пароль для дешифрования: ")
-    walking_by_dirs("", password)
+    walking_by_dirs("c:\\t", password)
 
+if __name__ == "__main__":
+    main()
 
